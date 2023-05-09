@@ -148,6 +148,24 @@
 /***** Esercizio 11 *****/
 .ex-11-icon {
     font-size: 60px;
+
+    transform: rotate(0);
+}
+
+.ex-11-icon:hover {
+    animation: rotateAndRewind 1.2s linear;
+}
+
+@keyframes rotateAndRewind {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(320deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
 }
 
 
