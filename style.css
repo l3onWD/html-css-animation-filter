@@ -114,6 +114,16 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+
+    border-radius: 0;
+    transform: scale(1);
+    transition: filter 2s, border-radius 2s, transform 2s;
+}
+
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: grayscale(0.5) sepia(0.5);
+    transform: scale(1.5);
 }
 
 
