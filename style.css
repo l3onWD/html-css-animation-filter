@@ -234,7 +234,7 @@
 
 /***** Esercizio 13 *****/
 .ex-13-button:hover .ex-13-top-white{
-    animation: turnTop 5s linear;
+    animation: turnTop 2s linear;
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
@@ -246,19 +246,19 @@
         top: -10px;
         left: 10%;
     }
-    20% {
+    30% {
         top: -10px;
         left: calc(100% - 30px);
     }
-    40% {
+    50% {
         top: calc(100% - 10px);
         left: calc(100% - 30px);
     }
-    60% {
+    80% {
         top: calc(100% - 10px);
         left: -10px;
     }
-    80% {
+    95% {
         top: -10px;
         left: -10px;
     }
