@@ -132,7 +132,7 @@
     font-size: 60px;
 
     transform: rotate(0);
-    animation: spin 2s linear infinite;
+    animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
@@ -140,7 +140,7 @@
         transform: rotate(0);
     }
     to {
-        transform: rotate(-360deg);
+        transform: rotate(-1turn);
     }
 }
 
