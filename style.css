@@ -201,3 +201,31 @@
     width: 60px;
     height: 20px;
 }
+
+
+/***** Esercizio 12 *****/
+.ex-12-button:hover .ex-12-top-white{
+    animation: translateLeft 1s linear 2 alternate;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: translateRight 1s linear 2 alternate;
+}
+
+@keyframes translateLeft {
+    from {
+        left: 10%;
+    }
+    to {
+        left: 60%;
+    }
+}
+
+@keyframes translateRight {
+    from {
+        right: 20%;
+    }
+    to {
+        right: 60%;
+    }
+}
