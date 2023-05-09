@@ -33,7 +33,7 @@
     height: 100px;
     background: red;
 
-    border-radius: 0%;
+    border-radius: 0;
     transition: border-radius 500ms;
 }
 
@@ -100,11 +100,13 @@
 
 /***** Esercizio 08 *****/
 .ex-8-img {
-    transition: filter 2s;
+    border-radius: 0;
+    transition: filter 2s, border-radius 2s;
 }
 
 .ex-8-img:hover {
-    filter: sepia(1);
+    border-radius: 20px;
+    filter: grayscale(0.5) sepia(0.5);
 }
 
 
