@@ -200,7 +200,6 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
-    display: none;
 }
 
 
@@ -238,7 +237,7 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-    /* animation: turnBottom 1s linear; */
+    animation: turnBottom 2s linear;
 }
 
 @keyframes turnTop {
@@ -265,5 +264,32 @@
     100% {
         top: -10px;
         left: 10%;
+    }
+}
+
+@keyframes turnBottom {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    30% {
+        bottom: -10px;
+        right: calc(100% - 30px);
+    }
+    50% {
+        bottom: calc(100% - 10px);
+        right: calc(100% - 30px);
+    }
+    80% {
+        bottom: calc(100% - 10px);
+        right: -10px;
+    }
+    95% {
+        bottom: -10px;
+        right: -10px;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
     }
 }
