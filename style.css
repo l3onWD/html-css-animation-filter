@@ -130,6 +130,18 @@
 /***** Esercizio 10 *****/
 .ex-10-icon {
     font-size: 60px;
+
+    transform: rotate(0);
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
 }
 
 
