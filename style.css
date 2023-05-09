@@ -47,6 +47,13 @@
     width: 100px;
     height: 100px;
     background: red;
+
+    opacity: 1;
+    transition: opacity 800ms;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
 }
 
 
